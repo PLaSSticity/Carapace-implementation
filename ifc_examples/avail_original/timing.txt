@@ -1,0 +1,2 @@
+First time: 0 s, 298053636 ns
+Elapsed time: 0 s, 298196905 ns

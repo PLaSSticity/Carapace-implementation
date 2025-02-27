@@ -1,0 +1,32 @@
+[package]
+name = "avail"
+description = "A command-line tool to find available times between all your calendars."
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ahash = "=0.8.6"
+anyhow = "=1.0.66"
+async-trait = "=0.1.58"
+#chrono = "0.4.22"
+chrono = {path = "chrono-0.4.22"}
+clap = { version = "=4.0.18", features = ["derive"] }
+colored = "=2.0.0"
+console = "=0.15.2"
+copypasta = "=0.8.1"
+ctrlc = { version = "=3.2.3", features = ["termination"] }
+dialoguer = { version = "=0.10.2", features = ["fuzzy-select"] }
+dirs = "=4.0.0"
+futures = "=0.3.25"
+indicatif = "=0.17.1"
+itertools = "=0.10.5"
+keyring = "=1"
+oauth2 = "=4.2.3"
+rusqlite = { version = "=0.28.0", features = ["bundled"] }
+regex = "=1.6.0"
+reqwest = { version = "=0.11", features = ["json"] }
+serde = "=1.0.144"
+serde_json = "=1.0.87"
+tokio = { version = "=1.23.0", features = ["full"] }
+toml = "=0.5.9"
+webbrowser = "=0.8.0"
