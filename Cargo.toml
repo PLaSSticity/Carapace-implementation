@@ -1,0 +1,17 @@
+[workspace]
+
+# Note that "ifc_examples/benchmark_games/originals/*/" aren't included in workspace build
+
+members = [
+    "ifc_examples/gradebook",
+    "ifc_examples/paper_gradebook",
+    "ifc_examples/avail/avail_code"
+]
+exclude = [
+    "ifc_library/secret_structs",
+    "ifc_library/macros",
+]
+
+[profile.release]
+lto=true
+
